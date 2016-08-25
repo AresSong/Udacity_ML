@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)https://review.udacity.com/#!/rubrics/27/view -->
+<html data-ng-app="udacity.grading" data-enforce-browser="" class="ng-scope"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">[uib-tooltip-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-popup].tooltip.right-bottom > .tooltip-arrow,[uib-popover-popup].popover.top-left > .arrow,[uib-popover-popup].popover.top-right > .arrow,[uib-popover-popup].popover.bottom-left > .arrow,[uib-popover-popup].popover.bottom-right > .arrow,[uib-popover-popup].popover.left-top > .arrow,[uib-popover-popup].popover.left-bottom > .arrow,[uib-popover-popup].popover.right-top > .arrow,[uib-popover-popup].popover.right-bottom > .arrow{top:auto;bottom:auto;left:auto;right:auto;margin:0;}[uib-popover-popup].popover,[uib-popover-template-popup].popover{display:block !important;}</style><style type="text/css">.uib-position-measure{display:block !important;visibility:hidden !important;position:absolute !important;top:-9999px !important;left:-9999px !important;}.uib-position-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll;}</style><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <!--[if lte IE 9]>
+    <script type="text/javascript">
+      window.location = 'https://www.udacity.com/upgrade';
+    </script>
+    <![endif]-->
+    <title>Udacity Reviews</title>
+    
+    <link rel="shortcut icon" href="https://review.udacity.com/assets/images/favicon.ico">
+    <meta name="description" content="Discover online classes taught by top instructors and industry experts. Take courses at your own pace.">
+
+    <meta name="robots" content="noodp">
+
+    <!--
+      These properties are here so social shares of review pages works
+      properly. We decided to let them apply to every page on the site
+      because we only expect people to share the review pages.
+
+      Guidelines obtained from https://moz.com/blog/meta-data-templates-123
+    -->
+
+    <!-- facebook -->
+    <meta property="og:title" content="Look at my Udacity Project Feedback!">
+    <meta property="og:description" content="A review of my work and personalized tips to improve.">
+    <meta property="og:image" content="https://s3-us-west-1.amazonaws.com/udacity-content/images/reviews/facebook-thumbnail-neutral.png ">
+
+    <!-- twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@udacity">
+    <meta name="twitter:title" content="Udacity Project Feedback">
+    <meta name="twitter:description" content="A review of my work and personalized tips to improve.">
+    <!-- "Twitter Summary card images must be at least 120x120px" -->
+    <meta name="twitter:image" content="https://s3-us-west-1.amazonaws.com/udacity-content/images/reviews/twitter-thumbnail-neutral.png ">
+
+    <meta name="application-name" content="Udacity">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="assets/img/logos/udacity/windows_tile/udacity-full-144x144.png">
+
+    <meta name="google-site-verification" content="ELX2btu3VElBKIdvkGj5ESBnJh_Dg9PnWjuCwVkPEkA">
+
+    <meta http-equiv="X-UA-Compatible" content="requiresActiveX=true">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="https://lh4.ggpht.com/dR8q0uh3GoH-kU00KnQ1elSkqBeWi-ZOQ1_14uDxWRACmhrIDQFOfItKdAf7hngoResshnbb9hmVpPuwkjI=s0#w=152&amp;h=152">
+
+    <link type="text/plain" rel="author" href="http://udacity.com/humans.txt">
+
+    <link href="./RubricsForEnron_files/css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./RubricsForEnron_files/udacity-base.min.css" type="text/css">
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="./RubricsForEnron_files/grading_ca5e281a.css">
+    <link rel="stylesheet" href="./RubricsForEnron_files/udacity-base.min.css">
+    <!-- endinject -->
+
+    <style>
+    @font-face {
+      font-family: 'Glyphicons Halflings';
+
+      src: url('/assets/fonts/glyphicons/glyphicons-halflings-regular.eot');
+      src: url('/assets/fonts/glyphicons/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/glyphicons/glyphicons-halflings-regular.woff2') format('woff2'), url('/assets/fonts/glyphicons/glyphicons-halflings-regular.woff') format('woff'), url('/assets/fonts/glyphicons/glyphicons-halflings-regular.ttf') format('truetype'), url('/assets/fonts/glyphicons/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+    }
+    </style>
+    <script src="./RubricsForEnron_files/airbrake.min.js" async=""></script><script src="./RubricsForEnron_files/airbrake.min.js" async=""></script><script type="text/javascript" async="" src="./RubricsForEnron_files/amplitude-2.12.1-min.gz.js"></script><script async="" src="./RubricsForEnron_files/p.js"></script><script async="" src="./RubricsForEnron_files/p.js"></script><script type="text/javascript" async="" src="./RubricsForEnron_files/analytics.min.js"></script><script type="text/javascript">
+      var segment_write_key = "toT8LUD8hh9KKz18k1i8l8AnAJlF27VY"; // production key for segment
+    </script>
+    <script type="text/javascript">
+      !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
+        analytics.load(segment_write_key);
+      }}();
+    </script>
+
+  <style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style></head>
+  <body data-modal-anti-scroll-helper="" class="responsive ng-scope" ng-controller="MainCtrl as main">
+    <div id="page-content" data-qualaroo-survey-info-hack="">
+      <!-- ngInclude: main.pageContext.headerURL --><div ng-include="main.pageContext.headerURL" class="ng-scope"><header class="navbar site-nav navbar-inverse navbar-static-top ng-scope" role="navigation"> <div class="container"> <div class="navbar-header"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse"> <span class="sr-only ng-scope" translate="">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="logo navbar-brand" href="https://udacity.com/" id="header-logo"> <img alt="Udacity Logo" src="./RubricsForEnron_files/logo.min.svg"> </a> </div> <nav class="navbar-collapse collapse text-center-xs" id="navbar-collapse" role="navigation"> <ul class="nav navbar-nav navbar-right"> <!-- ngIf: isGrader() --> <!-- ngIf: isGrader() --> <li> <a data-ng-click="main.logout()" href="https://review.udacity.com/" translate="" class="ng-scope">Logout</a> </li> </ul> <ul class="nav navbar-nav navbar-right"> <li class="dropdown"> <ul class="dropdown-menu"> <a data-ng-click="main.logout()" href="https://review.udacity.com/" translate="" class="ng-scope">Logout</a> </ul> </li> </ul> </nav> </div> </header> </div>
+      <div loading-container="" class="container-fluid"><div ng-show="loading" class="row ng-hide" style=""> <div class="col-sm-6 col-sm-offset-3 text-center"> <div class="row row-gap-huge"></div> <img src="./RubricsForEnron_files/b3OandPWsUWAnRVS5d8JS8OL0nu8dU2d3NceS7p1yKhPl9KD4EhqeylPm7yFbft5wmsA2VCAZ-8wAkmFduXJ=s0"> <div class="row row-gap-huge"></div> </div> </div> <div ng-show="!loading" class="" style=""> <div ng-transclude="">
+        <div class="row row-gap-medium ng-scope ng-isolate-scope ng-hide fadeOutUp animated" ng-show="!!message &amp;&amp; !dismissed" ng-class="{fadeInDown: !!message, fadeOutUp: dismissed, animated: !!message || dismissed}" alert-box="" style=""> <div class="col-md-offset-3 col-md-6"> <div class="alert alert-success hr-slim ng-binding"> <button type="button" ng-click="dismiss()" class="close" aria-label="Close"> <span aria-hidden="true">×</span> </button> <img class="icon img-initial" src="./RubricsForEnron_files/checkmark.svg"> </div> </div> </div>
+        <!-- uiView:  --><div ui-view="" autoscroll="true" class="ng-scope"><!-- uiView:  --><div ui-view="" autoscroll="true" class="ng-scope"><div ng-controller="RubricCtrl as ctrl" class="row ng-scope"> <div id="proj-spec-div" class="col-xs-offset-1 col-xs-10"> <h2 id="project-spec-headline" translate="" class="ng-scope">Project Specification</h2> <h3 id="project-name" ng-bind-html="localize(ctrl.rubric.project, &#39;name&#39;, markup=true)" class="ng-binding"><p>Identify Fraud from Enron Email</p>
+</h3>  <!-- ngRepeat: section in ctrl.rubric.sections --><div ng-repeat="section in ctrl.rubric.sections" class="ng-scope"> <span class="rubric-section ng-binding" ng-bind-html="localize(section, &#39;name&#39;, markup=true)"><p>Quality of Code</p>
+</span> <table class="table table-bordered section-table"> <thead> <tr> <!-- ngIf: !ctrl.hideCriteria --><th class="rubric-category criteria col-xs-3 ng-scope" ng-if="!ctrl.hideCriteria"> <span translate="" class="ng-scope">Criteria</span> </th><!-- end ngIf: !ctrl.hideCriteria --> <th class="rubric-category meets-specs" ng-class="ctrl.reviewerTips ? col-xs-7 : col-xs-4"> <span translate="" class="ng-scope">Meets Specifications</span> </th> <!-- ngIf: ctrl.reviewerTips --> </tr> </thead> <tbody>  <!-- ngRepeat: rubricItem in section.rubric_items --><tr ng-repeat="rubricItem in section.rubric_items" class="ng-scope"> <!-- ngIf: !ctrl.hideCriteria --><td class="rubric-item col-xs-3 ng-binding ng-scope" ng-if="!ctrl.hideCriteria" ng-bind-html="localize(rubricItem, &#39;criteria&#39;, markup=true)"><p>Functionality</p>
+</td><!-- end ngIf: !ctrl.hideCriteria --> <td class="rubric-item ng-binding" ng-class="ctrl.reviewerTips ? col-xs-7 : col-xs-4" ng-bind-html="localize(rubricItem, &#39;passed_description&#39;, markup=true)"><p>Code reflects the description in the answers to questions in the writeup. i.e. code performs the functions documented in the writeup and the writeup clearly specifies the final analysis strategy.</p>
+</td> <!-- ngIf: ctrl.reviewerTips --> </tr><!-- end ngRepeat: rubricItem in section.rubric_items --><tr ng-repeat="rubricItem in section.rubric_items" class="ng-scope"> <!-- ngIf: !ctrl.hideCriteria --><td class="rubric-item col-xs-3 ng-binding ng-scope" ng-if="!ctrl.hideCriteria" ng-bind-html="localize(rubricItem, &#39;criteria&#39;, markup=true)"><p>Usability</p>
+</td><!-- end ngIf: !ctrl.hideCriteria --> <td class="rubric-item ng-binding" ng-class="ctrl.reviewerTips ? col-xs-7 : col-xs-4" ng-bind-html="localize(rubricItem, &#39;passed_description&#39;, markup=true)"><p>poi_id.py can be run to export the dataset, list of features and algorithm, so that the final algorithm can be checked easily using tester.py.</p>
+</td> <!-- ngIf: ctrl.reviewerTips --> </tr><!-- end ngRepeat: rubricItem in section.rubric_items --> </tbody> </table> </div><!-- end ngRepeat: section in ctrl.rubric.sections --><div ng-repeat="section in ctrl.rubric.sections" class="ng-scope"> <span class="rubric-section ng-binding" ng-bind-html="localize(section, &#39;name&#39;, markup=true)"><p>Understanding the Dataset and Question</p>
+</span> <table class="table table-bordered section-table"> <thead> <tr> <!-- ngIf: !ctrl.hideCriteria --><th class="rubric-category criteria col-xs-3 ng-scope" ng-if="!ctrl.hideCriteria"> <span translate="" class="ng-scope">Criteria</span> </th><!-- end ngIf: !ctrl.hideCriteria --> <th class="rubric-category meets-specs" ng-class="ctrl.reviewerTips ? col-xs-7 : col-xs-4"> <span translate="" class="ng-scope">Meets Specifications</span> </th> <!-- ngIf: ctrl.reviewerTips --> </tr> </thead> <tbody>  <!-- ngRepeat: rubricItem in section.rubric_items --><tr ng-repeat="rubricItem in section.rubric_items" class="ng-scope"> <!-- ngIf: !ctrl.hideCriteria --><td class="rubric-item col-xs-3 ng-binding ng-scope" ng-if="!ctrl.hideCriteria" ng-bind-html="localize(rubricItem, &#39;criteria&#39;, markup=true)"><p>Data Exploration (related mini-project: Lesson 5)</p>
+</td><!-- end ngIf: !ctrl.hideCriteria --> <td class="rubric-item ng-binding" ng-class="ctrl.reviewerTips ? col-xs-7 : col-xs-4" ng-bind-html="localize(rubricItem, &#39;passed_description&#39;, markup=true)"><p>Student response addresses the most important characteristics of the dataset and uses these characteristics to inform their analysis. Important characteristics include:</p>
+<ul>
+<li>total number of data points</li>
+<li>allocation across classes (POI/non-POI)</li>
+<li>number of features used</li>
+<li>are there features with many missing values? etc.</li>
+</ul>
+</td> <!-- ngIf: ctrl.reviewerTips --> </tr><!-- end ngRepeat: rubricItem in section.rubric_items --><tr ng-repeat="rubricItem in section.rubric_items" class="ng-scope"> <!-- ngIf: !ctrl.hideCriteria --><td class="rubric-item col-xs-3 ng-binding ng-scope" ng-if="!ctrl.hideCriteria" ng-bind-html="localize(rubricItem, &#39;criteria&#39;, markup=true)"><p>Outlier Investigation (related mini-project: Lesson 7)</p>
+</td><!-- end ngIf: !ctrl.hideCriteria --> <td class="rubric-item ng-binding" ng-class="ctrl.reviewerTips ? col-xs-7 : col-xs-4" ng-bind-html="localize(rubricItem, &#39;passed_description&#39;, markup=true)"><p>Student response identifies outlier(s) in the financial data, and explains how they are removed or otherwise handled.</p>
+</td> <!-- ngIf: ctrl.reviewerTips --> </tr><!-- end ngRepeat: rubricItem in section.rubric_items --> </tbody> </table> </div><!-- end ngRepeat: section in ctrl.rubric.sections --><div ng-repeat="section in ctrl.rubric.sections" class="ng-scope"> <span class="rubric-section ng-binding" ng-bind-html="localize(section, &#39;name&#39;, markup=true)"><p>Optimize Feature Selection/Engineering</p>
+</span> <table class="table table-bordered section-table"> <thead> <tr> <!-- ngIf: !ctrl.hideCriteria --><th class="rubric-category criteria col-xs-3 ng-scope" ng-if="!ctrl.hideCriteria"> <span translate="" class="ng-scope">Criteria</span> </th><!-- end ngIf: !ctrl.hideCriteria --> <th class="rubric-category meets-specs" ng-class="ctrl.reviewerTips ? col-xs-7 : col-xs-4"> <span translate="" class="ng-scope">Meets Specifications</span> </th> <!-- ngIf: ctrl.reviewerTips --> </tr> </thead> <tbody>  <!-- ngRepeat: rubricItem in section.rubric_items --><tr ng-repeat="rubricItem in section.rubric_items" class="ng-scope"> <!-- ngIf: !ctrl.hideCriteria --><td class="rubric-item col-xs-3 ng-binding ng-scope" ng-if="!ctrl.hideCriteria" ng-bind-html="localize(rubricItem, &#39;criteria&#39;, markup=true)"><p>Create new features (related mini-project: Lesson 11)</p>
+</td><!-- end ngIf: !ctrl.hideCriteria --> <td class="rubric-item ng-binding" ng-class="ctrl.reviewerTips ? col-xs-7 : col-xs-4" ng-bind-html="localize(rubricItem, &#39;passed_description&#39;, markup=true)"><p>At least one new feature is implemented. Justification for that feature is provided in the written response, and the effect of that feature on the final algorithm performance is tested. The student is not required to include their new feature in their final feature set.</p>
+</td> <!-- ngIf: ctrl.reviewerTips --> </tr><!-- end ngRepeat: rubricItem in section.rubric_items --><tr ng-repeat="rubricItem in section.rubric_items" class="ng-scope"> <!-- ngIf: !ctrl.hideCriteria --><td class="rubric-item col-xs-3 ng-binding ng-scope" ng-if="!ctrl.hideCriteria" ng-bind-html="localize(rubricItem, &#39;criteria&#39;, markup=true)"><p>Intelligently select features (related mini-project: Lesson 11)</p>
+</td><!-- end ngIf: !ctrl.hideCriteria --> <td class="rubric-item ng-binding" ng-class="ctrl.reviewerTips ? col-xs-7 : col-xs-4" ng-bind-html="localize(rubricItem, &#39;passed_description&#39;, markup=true)"><p>Univariate or recursive feature selection is deployed, or features are selected by hand (different combinations of features are attempted, and the performance is documented for each one). Features that are selected are reported and the number of features selected is justified. For an algorithm that supports getting the feature importances (e.g. decision tree) or feature scores (e.g. SelectKBest), those are documented as well.</p>
+</td> <!-- ngIf: ctrl.reviewerTips --> </tr><!-- end ngRepeat: rubricItem in section.rubric_items --><tr ng-repeat="rubricItem in section.rubric_items" class="ng-scope"> <!-- ngIf: !ctrl.hideCriteria --><td class="rubric-item col-xs-3 ng-binding ng-scope" ng-if="!ctrl.hideCriteria" ng-bind-html="localize(rubricItem, &#39;criteria&#39;, markup=true)"><p>Properly scale features (related mini-project: Lesson 9)</p>
+</td><!-- end ngIf: !ctrl.hideCriteria --> <td class="rubric-item ng-binding" ng-class="ctrl.reviewerTips ? col-xs-7 : col-xs-4" ng-bind-html="localize(rubricItem, &#39;passed_description&#39;, markup=true)"><p>If algorithm calls for scaled features, feature scaling is deployed.</p>
+</td> <!-- ngIf: ctrl.reviewerTips --> </tr><!-- end ngRepeat: rubricItem in section.rubric_items --> </tbody> </table> </div><!-- end ngRepeat: section in ctrl.rubric.sections --><div ng-repeat="section in ctrl.rubric.sections" class="ng-scope"> <span class="rubric-section ng-binding" ng-bind-html="localize(section, &#39;name&#39;, markup=true)"><p>Pick and Tune an Algorithm</p>
+</span> <table class="table table-bordered section-table"> <thead> <tr> <!-- ngIf: !ctrl.hideCriteria --><th class="rubric-category criteria col-xs-3 ng-scope" ng-if="!ctrl.hideCriteria"> <span translate="" class="ng-scope">Criteria</span> </th><!-- end ngIf: !ctrl.hideCriteria --> <th class="rubric-category meets-specs" ng-class="ctrl.reviewerTips ? col-xs-7 : col-xs-4"> <span translate="" class="ng-scope">Meets Specifications</span> </th> <!-- ngIf: ctrl.reviewerTips --> </tr> </thead> <tbody>  <!-- ngRepeat: rubricItem in section.rubric_items --><tr ng-repeat="rubricItem in section.rubric_items" class="ng-scope"> <!-- ngIf: !ctrl.hideCriteria --><td class="rubric-item col-xs-3 ng-binding ng-scope" ng-if="!ctrl.hideCriteria" ng-bind-html="localize(rubricItem, &#39;criteria&#39;, markup=true)"><p>Pick an algorithm  (related mini-project: Lessons 1-3)</p>
+</td><!-- end ngIf: !ctrl.hideCriteria --> <td class="rubric-item ng-binding" ng-class="ctrl.reviewerTips ? col-xs-7 : col-xs-4" ng-bind-html="localize(rubricItem, &#39;passed_description&#39;, markup=true)"><p>At least 2 different algorithms are attempted and their performance is compared, with the more performant one used in the final analysis.</p>
+</td> <!-- ngIf: ctrl.reviewerTips --> </tr><!-- end ngRepeat: rubricItem in section.rubric_items --><tr ng-repeat="rubricItem in section.rubric_items" class="ng-scope"> <!-- ngIf: !ctrl.hideCriteria --><td class="rubric-item col-xs-3 ng-binding ng-scope" ng-if="!ctrl.hideCriteria" ng-bind-html="localize(rubricItem, &#39;criteria&#39;, markup=true)"><p>Discuss parameter tuning and its importance.</p>
+</td><!-- end ngIf: !ctrl.hideCriteria --> <td class="rubric-item ng-binding" ng-class="ctrl.reviewerTips ? col-xs-7 : col-xs-4" ng-bind-html="localize(rubricItem, &#39;passed_description&#39;, markup=true)"><p>Response addresses what it means to perform parameter tuning and why it is important.</p>
+</td> <!-- ngIf: ctrl.reviewerTips --> </tr><!-- end ngRepeat: rubricItem in section.rubric_items --><tr ng-repeat="rubricItem in section.rubric_items" class="ng-scope"> <!-- ngIf: !ctrl.hideCriteria --><td class="rubric-item col-xs-3 ng-binding ng-scope" ng-if="!ctrl.hideCriteria" ng-bind-html="localize(rubricItem, &#39;criteria&#39;, markup=true)"><p>Tune the algorithm (related mini-project: Lessons 2, 3, 13)</p>
+</td><!-- end ngIf: !ctrl.hideCriteria --> <td class="rubric-item ng-binding" ng-class="ctrl.reviewerTips ? col-xs-7 : col-xs-4" ng-bind-html="localize(rubricItem, &#39;passed_description&#39;, markup=true)"><p>At least one important parameter tuned with at least 3 settings investigated systematically, or any of the following are true:</p>
+<ul>
+<li>GridSearchCV used for parameter tuning</li>
+<li>Several parameters tuned</li>
+<li>Parameter tuning incorporated into algorithm selection (i.e. parameters tuned for more than one algorithm, and best algorithm-tune combination selected for final analysis).</li>
+</ul>
+</td> <!-- ngIf: ctrl.reviewerTips --> </tr><!-- end ngRepeat: rubricItem in section.rubric_items --> </tbody> </table> </div><!-- end ngRepeat: section in ctrl.rubric.sections --><div ng-repeat="section in ctrl.rubric.sections" class="ng-scope"> <span class="rubric-section ng-binding" ng-bind-html="localize(section, &#39;name&#39;, markup=true)"><p>Validate and Evaluate</p>
+</span> <table class="table table-bordered section-table"> <thead> <tr> <!-- ngIf: !ctrl.hideCriteria --><th class="rubric-category criteria col-xs-3 ng-scope" ng-if="!ctrl.hideCriteria"> <span translate="" class="ng-scope">Criteria</span> </th><!-- end ngIf: !ctrl.hideCriteria --> <th class="rubric-category meets-specs" ng-class="ctrl.reviewerTips ? col-xs-7 : col-xs-4"> <span translate="" class="ng-scope">Meets Specifications</span> </th> <!-- ngIf: ctrl.reviewerTips --> </tr> </thead> <tbody>  <!-- ngRepeat: rubricItem in section.rubric_items --><tr ng-repeat="rubricItem in section.rubric_items" class="ng-scope"> <!-- ngIf: !ctrl.hideCriteria --><td class="rubric-item col-xs-3 ng-binding ng-scope" ng-if="!ctrl.hideCriteria" ng-bind-html="localize(rubricItem, &#39;criteria&#39;, markup=true)"><p>Usage of Evaluation Metrics (related mini-project: Lesson 14)</p>
+</td><!-- end ngIf: !ctrl.hideCriteria --> <td class="rubric-item ng-binding" ng-class="ctrl.reviewerTips ? col-xs-7 : col-xs-4" ng-bind-html="localize(rubricItem, &#39;passed_description&#39;, markup=true)"><p>At least two appropriate metrics are used to evaluate algorithm performance (e.g. precision and recall), and the student articulates what those metrics measure in context of the project task.</p>
+</td> <!-- ngIf: ctrl.reviewerTips --> </tr><!-- end ngRepeat: rubricItem in section.rubric_items --><tr ng-repeat="rubricItem in section.rubric_items" class="ng-scope"> <!-- ngIf: !ctrl.hideCriteria --><td class="rubric-item col-xs-3 ng-binding ng-scope" ng-if="!ctrl.hideCriteria" ng-bind-html="localize(rubricItem, &#39;criteria&#39;, markup=true)"><p>Discuss validation and its importance.</p>
+</td><!-- end ngIf: !ctrl.hideCriteria --> <td class="rubric-item ng-binding" ng-class="ctrl.reviewerTips ? col-xs-7 : col-xs-4" ng-bind-html="localize(rubricItem, &#39;passed_description&#39;, markup=true)"><p>Response addresses what validation is and why it is important.</p>
+</td> <!-- ngIf: ctrl.reviewerTips --> </tr><!-- end ngRepeat: rubricItem in section.rubric_items --><tr ng-repeat="rubricItem in section.rubric_items" class="ng-scope"> <!-- ngIf: !ctrl.hideCriteria --><td class="rubric-item col-xs-3 ng-binding ng-scope" ng-if="!ctrl.hideCriteria" ng-bind-html="localize(rubricItem, &#39;criteria&#39;, markup=true)"><p>Validation Strategy (related mini-project: Lesson 13)</p>
+</td><!-- end ngIf: !ctrl.hideCriteria --> <td class="rubric-item ng-binding" ng-class="ctrl.reviewerTips ? col-xs-7 : col-xs-4" ng-bind-html="localize(rubricItem, &#39;passed_description&#39;, markup=true)"><p>Performance of the final algorithm selected is assessed by splitting the data into training and testing sets or through the use of cross validation, noting the specific type of validation performed.</p>
+</td> <!-- ngIf: ctrl.reviewerTips --> </tr><!-- end ngRepeat: rubricItem in section.rubric_items --><tr ng-repeat="rubricItem in section.rubric_items" class="ng-scope"> <!-- ngIf: !ctrl.hideCriteria --><td class="rubric-item col-xs-3 ng-binding ng-scope" ng-if="!ctrl.hideCriteria" ng-bind-html="localize(rubricItem, &#39;criteria&#39;, markup=true)"><p>Algorithm Performance</p>
+</td><!-- end ngIf: !ctrl.hideCriteria --> <td class="rubric-item ng-binding" ng-class="ctrl.reviewerTips ? col-xs-7 : col-xs-4" ng-bind-html="localize(rubricItem, &#39;passed_description&#39;, markup=true)"><p>When tester.py is used to evaluate performance, precision and recall are both at least 0.3.</p>
+</td> <!-- ngIf: ctrl.reviewerTips --> </tr><!-- end ngRepeat: rubricItem in section.rubric_items --> </tbody> </table> </div><!-- end ngRepeat: section in ctrl.rubric.sections --> <!-- ngIf: ctrl.rubric.stand_out --> <div id="language-selection"> <div class="dropdown"> <button id="language-selector" class="btn btn-xs btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"> <span class="language-flag zh-cn"></span> <span class="language ng-scope" translate="中文">中文</span> <span class="caret"></span> </button> <ul class="dropdown-menu" aria-labelledby="language-selector"> <!-- ngRepeat: (langCode, language) in ctrl.supportedLanguages --><!-- ngIf: langCode != ctrl.langCode --><li class="language-option ng-scope" ng-repeat="(langCode, language) in ctrl.supportedLanguages" ng-if="langCode != ctrl.langCode"> <a href="https://review.udacity.com/" ng-click="changeLanguage(langCode)"> <span class="language-flag en-us"></span> <span class="language ng-scope ng-binding" translate="">English</span> </a> </li><!-- end ngIf: langCode != ctrl.langCode --><!-- end ngRepeat: (langCode, language) in ctrl.supportedLanguages --><!-- ngIf: langCode != ctrl.langCode --><li class="language-option ng-scope" ng-repeat="(langCode, language) in ctrl.supportedLanguages" ng-if="langCode != ctrl.langCode"> <a href="https://review.udacity.com/" ng-click="changeLanguage(langCode)"> <span class="language-flag pt-br"></span> <span class="language ng-scope ng-binding" translate="">português</span> </a> </li><!-- end ngIf: langCode != ctrl.langCode --><!-- end ngRepeat: (langCode, language) in ctrl.supportedLanguages --><!-- ngIf: langCode != ctrl.langCode --><!-- end ngRepeat: (langCode, language) in ctrl.supportedLanguages --> </ul> </div> </div> </div> </div> </div></div>
+      </div> </div> </div>
+    </div>
+
+    <!-- ngInclude: main.pageContext.footerURL --><div ng-include="main.pageContext.footerURL" class="ng-scope"><footer id="footer" class="footer ng-scope" ng-controller="FooterCtrl as ctrl"> <div class="container"> <ul class="nav nav-pills"> <!-- ngIf: currentUser && currentUser.role !== 'student' --> <li><a ui-sref="submissions.student-faq" href="https://review.udacity.com/#!/submissions/student-faq">Student FAQ</a></li> </ul> </div> </footer> </div>
+
+    <script src="./RubricsForEnron_files/jquery.min.js"></script>
+
+    <script type="text/javascript" src="./RubricsForEnron_files/airbrake-shim.js" data-airbrake-project-id="108424" data-airbrake-project-key="585b2c42b7a3ccfb360e6b1461185702" data-airbrake-environment-name="production"></script>
+    <script data-airbrake-onload="initAirbrake">
+      function initAirbrake() {
+        Airbrake.addFilter(function (notice) {
+          console.log(notice);
+          return true;
+        });
+      }
+    </script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="./RubricsForEnron_files/angular.min.js"></script>
+
+    <!-- inject:js -->
+    <script src="./RubricsForEnron_files/grading_f634715f.js"></script>
+    <script src="./RubricsForEnron_files/airbrake-shim.js"></script>
+    <!-- endinject -->
+  
+
+</body></html>
